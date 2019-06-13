@@ -27,5 +27,12 @@ public class Runner{
         Runner runner = new Runner();
     }
 
+    public interface PartnerB{
+        public void printQuotient(float a, float b1);
+    }
+
+    public interface PartnerA{
+        boolean perfectSquare(int num);
+    }
 
 }
